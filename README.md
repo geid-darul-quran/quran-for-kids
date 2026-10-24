@@ -12,8 +12,12 @@ Switch between English and Arabic, enter student names in Lesson setup, advance 
 
 ## Design boundaries
 
-This is a layout and interaction prototype, not a production Quran resource. The sample Arabic text, page layout, tajweed colouring, and English translation have not been validated for teaching. The sample has no word translations, actual Al-Muyassar text, or audio integration. Playback controls show the intended design only. The seven sample questions avoid repeats until the sample pool is exhausted.
+The reader now includes all 114 surahs (6,236 verses) from Tanzil Uthmani text, bundled locally with attribution in data/NOTICE.txt. This is a surah reader, not an exact 604-page Mushaf layout. Artificial tajweed colours were removed. Word meanings, translations, and Al-Muyassar integration remain pending. Audio streams directly from EveryAyah: Al-Husary Mu‘allim, with an explicit Regular recording option. Select a verse range, speed, verse-repeat count, and pause duration. Audio availability depends on the external host. Questions use the selected surah and avoid repeats until its pool is exhausted.
 
-Accounts, saved classes and progress, individual age/proficiency settings, full 604-page Quran content, verified word translations and tajweed data, licensed references, Al-Husary Mu‘allim recordings, complete playback controls, test ranges, and private test marking/reveal remain implementation work. The existing mark tool synchronizes marks to the Student Board immediately; do not use it for private test assessment.
+Accounts, saved classes and progress, individual age/proficiency settings, exact 604-page Mushaf layout, verified word translations and tajweed data, licensed references, whole-range repeat controls, test ranges, and private test marking/reveal remain implementation work. The existing mark tool synchronizes marks to the Student Board immediately; do not use it for private test assessment.
 
 The full product should offer guest lessons and optional teacher accounts, saved classes with attendance, per-student ages and levels, lesson modes, manually awarded session stars with history, mistake notes, summaries, and separate teacher and student windows. Qaida content is outside the initial scope.
+
+## Validation of the reader update
+
+Browser checks cover all 114 selector entries, representative surah counts (1, 2, 114), matching verse audio URLs, range progression and termination, verse repeats, stopping on surah changes, and RTL switching. Audio transport was simulated because this development environment blocks EveryAyah; actual streaming is not verified here.

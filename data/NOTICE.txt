@@ -1,0 +1,13 @@
+Quran text provided by Tanzil Project — https://tanzil.net
+Copyright (C) 2007-2026 Tanzil Project.
+Licensed under Creative Commons Attribution 3.0.
+https://tanzil.net/docs/text_license
+
+Permission is granted to copy and distribute verbatim copies of this text,
+but CHANGING IT IS NOT ALLOWED. Attribution and a link to Tanzil must be retained.
+See the above license link for the full distribution requirements.
+
+Source: https://github.com/risan/quran-json, data/tanzil/uthmani.json
+Arabic verse strings are copied without modification. Chapter metadata is
+from data/tanzil/chapters.json. The JavaScript packaging is generated locally.
+Audio is streamed directly from EveryAyah, not bundled or redistributed.
